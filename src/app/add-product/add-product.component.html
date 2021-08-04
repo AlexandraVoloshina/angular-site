@@ -1,0 +1,16 @@
+<form class="example-form">
+  <h2>Додати товар</h2>
+      <div>
+        <p>Назва продукту</p>
+        <input type="text" [(ngModel)]="product.title" name="product.title" placeholder="Ex. М'яка іграшка">
+      </div>
+      <div>
+        <p>Опис товару</p>
+        <input type="text" [(ngModel)]='product.desc' name="product.desc" placeholder="Ex. Опис м'якоі іграшки" >
+      </div>
+      <div>
+        <p>Вартість товару</p>
+        <input type="text" [(ngModel)]="product.price" name="product.price" placeholder="Ex. 500"> грн
+      </div>
+    <button mat-button class="btn-delete" (click)="addProduct()">Додати</button>
+</form>

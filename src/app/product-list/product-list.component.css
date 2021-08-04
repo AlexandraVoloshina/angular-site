@@ -1,0 +1,8 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://bi.ua/assets/thumbnails/fb/fbd8454708754408b6d9880bb1d574a4.png');
+    background-size: cover;
+  }
